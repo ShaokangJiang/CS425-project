@@ -49,35 +49,35 @@ The application must provide a login portal for user to login. The application w
 
 1- Users with admin privileges can do the following: 
 
-a. Schedule an appointment 
+    a. Schedule an appointment 
 
-b. Create new patient 
+    b. Create new patient 
 
-c. Create a new user account 
+    c. Create a new user account 
 
-d. Access the business reporting
+    d. Access the business reporting
 
 2- Users with Doctor/Staff privileges can do the following:
 
-a. View and update patient record
+    a. View and update patient record
 
-b. Create an Order
+    b. Create an Order
 
-c. View calendar and schedule appointment with medical staff
+    c. View calendar and schedule appointment with medical staff
 
 3- Users with Patient privileges can do the following:
 
-a. View the orders
+    a. View the orders
 
-b. View bills
+    b. View bills
 
 4- Users with Scheduler privileges can do the following:
 
-a. View the orders
+    a. View the orders
 
-b. View bills
+    b. View bills
 
-c. View calendar and schedule appointment with medical staff
+    c. View calendar and schedule appointment with medical staff
 
 ##### Order transaction 
 
