@@ -33,7 +33,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String result = "10 "+Comments;
             String connectionString =  
-            "jdbc:sqlserver://huangsk100.database.windows.net:1433;database=huangsk100;user=huangsk100@huangsk100;password=123456Qq;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";  
+            "jdbc:sqlserver://huangsk100.database.windows.net:1433;database=huangsk100;user=huangsk100@huangsk100;password=*PASSWORD*;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";  
             Connection conn = DriverManager.getConnection(connectionString); 
             PreparedStatement pStmt1 = conn.prepareStatement("select * from dbo.Employee where id = '" + id_ +"'"+" and jobtype='Medical Staff'");  
             PreparedStatement tmt1 = conn.prepareStatement("update dbo.Order_ set Results ='"+ result +"' where Order_id='"+order_id+"'");

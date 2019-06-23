@@ -36,7 +36,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver"); 
             String connectionString =  
-            "jdbc:sqlserver://huangsk100.database.windows.net:1433;database=huangsk100;user=huangsk100@huangsk100;password=123456Qq;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";  
+            "jdbc:sqlserver://huangsk100.database.windows.net:1433;database=huangsk100;user=huangsk100@huangsk100;password=*PASSWORD*;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";  
             Connection conn = DriverManager.getConnection(connectionString); 
             PreparedStatement tmt = conn.prepareStatement("Insert into dbo.login(Privilege,Password) values('" +Privilege+ "','" +Password+ "')",Statement.RETURN_GENERATED_KEYS);  
         	
